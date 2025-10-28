@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+.navegator-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #11122b;
+    color: #cbcbcb;
+    height: 190px;
+    padding: 60px 100px;
+
+}
+.left-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon i {
+    font-size: 2em;
+}
