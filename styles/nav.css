@@ -1,7 +1,4 @@
-body {
-    margin: 0px;
-    font-family: "Roboto", sans-serif;
-}
+/*Common nav styles*/
 
 .navegator-wrapper {
     display: flex;
@@ -38,11 +35,11 @@ body {
 
 /*.navegator-wrapper > .left-column > .contact-hours-wrapper > .phone {
     font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-.navegator-wrapper > .left-column > .contact-hours-wrapper > .hours {
-    font-family: 'Ubuntu Condensed', sans-serif;
 }*/
+.navegator-wrapper > .left-column > .contact-hours-wrapper > .hours {
+    font-size: .8em; 
+    color: #858585;
+}
 
 /*center-column*/
 .navegator-wrapper > .center-column {
