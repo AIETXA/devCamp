@@ -1,12 +1,13 @@
 /*Common nav styles*/
 
 .navegator-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+ /*Flexbox container*/   
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #11122b;
-    color: #cbcbcb;
-    height: 190px;
     padding: 60px 100px;
     font-family: 'Ubuntu Condensed', sans-serif;
 
@@ -113,3 +114,4 @@
 .navegator-wrapper > .right-column > .pin-icon a:hover {
     color: #cea135;
 }
+
