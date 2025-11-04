@@ -1,0 +1,92 @@
+.footer-wrapper {
+    background-color: #11122b;
+    height: 270px;
+    color: #cdcdcd;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin-top: -4px;
+}
+
+.footer-wrapper > .footer-image {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.footer-wrapper > .footer-image > img {
+    height: 100px;
+    filter: brightness(50%);
+}
+
+.footer-wrapper > .atention-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.footer-wrapper > .atention-section > .phone {
+    letter-spacing: .2em;
+    font-size: .9em;
+    margin-left: -10px;
+    color: #858585;
+}
+
+.footer-wrapper > .atention-section > .hours {
+    font-size: .7em;
+    color: #cea153;
+    margin-left: 15px;
+    letter-spacing: .1em;
+}
+
+/*El profe usa el mismo style que para el NAV */
+.footer-wrapper > .links-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-wrapper > .links-section > .nav-link {
+    width: 100px;
+    text-align: center;
+}
+
+.footer-wrapper > .links-section > .nav-link a {
+    color: #858585;
+    text-decoration: none;
+    font-size: .9em;
+    padding: 30px;
+    transition: .4s;
+    text-align: center;
+}
+
+.footer-wrapper > .links-section > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/*Redes*/
+.footer-wrapper > .social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper > .social-networks i {
+    margin: 50px 30px 15px 20px;
+    height: 20px;
+    color:#858585;
+    transition: .5s;
+}
+
+.footer-wrapper > .social-networks i:hover {
+    color: #cea135;
+}
+.footer-wrapper > .copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .6em;
+    color: #858585;
+    margin: -4px;
+}

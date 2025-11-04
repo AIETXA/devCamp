@@ -83,7 +83,7 @@
     letter-spacing: 2px;
 }
 
-/*Footer style*/
+/*Footer style
 
 .footer-wrapper {
     background-color: #11122b;
@@ -125,18 +125,22 @@
     letter-spacing: .1em;
 }
 
-.links-section {
+.footer-wrapper > .links-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+   
+   
 }
-
-.links-section > .nav-link a {
+.footer-wrapper > .links-wrapper > .nav-link {
+    width: 70px;
+}
+.footer-wrapper > .links-wrapper > .nav-link a {
     color: #858585;
     text-decoration: none;
     font-size: .9em;
     padding: 30px;
+
 }
 
 .social-networks {
@@ -159,3 +163,4 @@
     color: #858585;
     margin: -4px;
 }
+    */
